@@ -26,11 +26,16 @@ Data can be downloaded from this [link](https://drive.google.com/open?id=0B-hYmS
      
      Then Go to CELL DATA section. Train the model with cell data & test it with the above procedure.
      
-     In ***DNN Tissue Model 1***, Scores and Test File sector, there is function for generating 1000 scores.
+     In ***DNN Tissue Model 1***, Scores and Test File sector, there is function for generating 1000 scores. (You also have to take care      of missing values by average and set a flag)
      
  * Stats Fun: Some Stastical analysis of the data.
 
+### Data Description:
+* PVP_feature_train/test : Normal PVP features dataset.
+* PVP_features_no_braca_test/train : Normal PVP features without BRCA.
+    >> Train PVP_features and test bot PVP_test and PVP_test_no_brca and vice versa(2 models 4 tests)
 
+* PVP_human_tis_no_norm_train/test: Normal PVP with human tissues.
 
 
 
