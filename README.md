@@ -33,11 +33,15 @@ Data can be downloaded from this [link](https://drive.google.com/open?id=0B-hYmS
 ### Data Description:
 * PVP_feature_train/test : Normal PVP features dataset.
 * PVP_features_no_braca_test/train : Normal PVP features without BRCA.
-    >> Train PVP_features and test bot PVP_test and PVP_test_no_brca and vice versa(2 models 4 tests)
+    > Train PVP_features and test bot PVP_test and PVP_test_no_brca and vice versa(2 models, 4 tests)
 
-* PVP_human_tis_no_norm_train/test: Normal PVP with human tissues.
-
-
+* tissue_brca_train/test: Normal PVP with human tissues.
+* tissue_no_brca_test/train: Normal PVP with no BRCA genes
+   > (2 models, 4 tests)
+   
+* norm_tissue_brca_test/train: Row Normalised tissues with PVP features.
+* norm_tissue_no_brca_test/train: Row Normalised tissues with PVP features with no BRCA genes.
+   > (2 models, 4 tests)
 
 ### Documentation will be updated properly soon!
     I have just written how to train and test the models. This is not general purpose documentation.
